@@ -1,12 +1,12 @@
-import type { Route } from "./+types/home";
+import type { Route } from "./+types/index";
 
 export function meta({}: Route.MetaArgs) {
   return [
-    { title: "Morsalin Portfolio" },
+    { title: "Morsalin Portfolio | Welcome" },
     { name: "description", content: "Personal Portfolio" },
   ];
 }
 
 export default function Home() {
-  return <> Portfolio</>;
+  return <section>My app</section>;
 }
