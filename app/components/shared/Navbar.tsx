@@ -56,6 +56,7 @@ const Navbar = () => {
             <NavLink
               to={link.path}
               className={({ isActive }) => (isActive ? active : base)}
+              onClick={() => setMenuOpen(false)}
             >
               {link.name}
             </NavLink>
