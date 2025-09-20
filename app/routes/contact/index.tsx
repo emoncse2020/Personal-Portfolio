@@ -1,3 +1,11 @@
+import type { Route } from "./+types/index";
+export function meta({}: Route.MetaArgs) {
+  return [
+    { title: "Morsalin | Contact Me" },
+    { name: "description", content: "Personal Portfolio" },
+  ];
+}
+
 const ContactPage = () => {
   return (
     <>

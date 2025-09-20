@@ -40,7 +40,7 @@ const Hero = () => {
   }, [charIndex, deleting, wordIndex]);
 
   return (
-    <header className="flex flex-col justify-center items-center text-center py-16 px-6 bg-gray-900">
+    <header className="flex flex-col justify-center items-center text-center py-16 px-6">
       {/* Typing heading */}
       <h1 className="text-4xl sm:text-5xl md:text-6xl font-extrabold mb-6">
         Hi, I'm{" "}

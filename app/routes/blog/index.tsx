@@ -1,3 +1,11 @@
+import type { Route } from "./+types/index";
+export function meta({}: Route.MetaArgs) {
+  return [
+    { title: "Morsalin | Blogs" },
+    { name: "description", content: "Personal Portfolio" },
+  ];
+}
+
 const BlogPage = () => {
   return (
     <>
